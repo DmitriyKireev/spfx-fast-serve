@@ -44,10 +44,7 @@ let baseConfig = {
         test: /\.tsx?$/,
         loader: 'ts-loader',
         options: {
-          transpileOnly: true,
-          compilerOptions: {
-            declarationMap: false
-          }
+          transpileOnly: true
         },
         exclude: /node_modules/
       },
